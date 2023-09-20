@@ -65,12 +65,12 @@ nav .sign {
     height: 3rem;
     border-radius: 0.3rem;
     border: none;
-    margin-right: 118px;
+    margin-right: 79px;
 }
 
 nav .Ellipse {
     position: absolute;
-    top: 0;
+    top: -9px;
     right: 0;
 }
 
@@ -142,7 +142,11 @@ nav .Ellipse {
 .imageStore {
     display: flex;
     align-items: center;
-
+    background-color: black;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .store {
@@ -238,8 +242,12 @@ nav .Ellipse {
 }
 
 .aboutUs h1 {
+    font-family: 'Inter', sans-serif;
     font-size: 85px;
+    letter-spacing: -3px;
+    line-height: 100%;
     color: var(--secondary-color);
+    margin-top: 150px;
 }
 
 .background3 {
@@ -255,6 +263,7 @@ nav .Ellipse {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: -253px;
 }
 
 .image-column {
@@ -265,7 +274,8 @@ nav .Ellipse {
 
 .text-column {
     flex: 1;
-    padding: 20px;
+    margin-right: -59px;
+        margin-bottom: 138px;
 }
 
 h2 {
@@ -278,8 +288,14 @@ p {
     line-height: 1.5;
 }
 
+.pds {
+        padding-left: 191px;
+    margin-bottom: 123px;
+}
+
 .pd {
     padding-left: 121px;
+    margin-bottom:284px
 }
 
 
@@ -303,6 +319,11 @@ p {
 
 .text-column p {
     width: 438px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: normal;
+    color: #575757;
 }
 
 .text-column2 button {
@@ -325,31 +346,47 @@ p {
 
 .text-column2 p {
     width: 438px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: normal;
+    color: #575757;
 }
 
 .text-column2 button {
     background-color: var(--text-color);
-    color: black;
+    color: #000F37;
     padding: 10px 20px;
-    border: solid;
+    border: 1px solid #000F37;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
     width: 185px;
     height: 58px;
     border-radius: 5px;
 }
 
+.text-column3 {
+        margin-right: 79px;
+}
+
+/* 
 .text-column3 button {
     background-color: var(--button-color);
     color: var(--text-color);
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
     width: 185px;
     height: 58px;
     border-radius: 5px;
-}
+} */
 
 .text-column3 h1 {
     font-size: 46px;
@@ -359,15 +396,23 @@ p {
 
 .text-column3 p {
     width: 438px;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+    font-weight: normal;
+    color: #575757;
 }
 
 .text-column3 button {
     background-color: var(--text-color);
-    color: black;
+    color: #000F37;
     padding: 10px 20px;
-    border: solid;
+    border: 1px solid #000F37;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
     width: 185px;
     height: 58px;
     border-radius: 5px;
@@ -438,16 +483,24 @@ p {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    letter-spacing: -3px;
+    line-height: 100%;
+    font-weight: bold;
+    margin-top: 233px;
 }
 
 .ourClient p {
     font-size: 18px;
+    color: #575757;
     width: 736px;
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
+    line-height: normal;
+    letter-spacing: 0;
 }
 
 .bodyCard {
@@ -522,16 +575,24 @@ img {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    letter-spacing: -3px;
+    line-height: 100%;
+    font-weight: bold;
+    margin-top: 140px;
 }
 
 .testimonials p {
     font-size: 18px;
+    color: #575757;
     width: 736px;
     display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
+    line-height: normal;
+    letter-spacing: 0;
 }
 
 .testimonials .cardBody {
@@ -555,10 +616,14 @@ img {
     justify-content: space-between;
     align-items: flex-start;
     background-color: #fff; 
-    border: 1px solid #ccc; 
+    border: 1px solid #E7EBEE; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     padding: 20px;
     border-radius: 10px;
+}
+
+.testimonials .cardBody .card-grid .card:hover {
+  background-image: linear-gradient(to bottom,  #f0f0f1, #ffffff);
 }
 
 .testimonials .cardBody .card-grid .card .comment {
@@ -590,11 +655,17 @@ img {
 .profile ul h6 {
     padding: 0;
     margin: 10px 0;
+    color: #9C9EA3;
+    font-size: 12px;
+    font-weight: 500;
 }
 
-.testimonials .cardBody h3 {
+.testimonials .cardBody ul li div {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    font-weight: bold;
 }
 
 .testimonials .cardBody .card-grid .card p {
@@ -608,6 +679,13 @@ img {
 .sliderImage{
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+}
+
+.sliderImage button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -668,8 +746,8 @@ img {
     /* margin: 0 auto; */
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    
+    margin-top: 52px;
+    margin-top: 140px;
 }
 
 .background5{
@@ -724,14 +802,14 @@ img {
 .faq .icon2 {
     width: 70px;
     height: 30px;
-    font-size: 49px;
+    font-size: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #FD5757;
     border-radius: 50%;
-    margin-right: 10px;
-    margin-left: 30px;
+    margin-right: 13px;
+    margin-left: 14px;
 }
 
 .faq .icon {
@@ -748,7 +826,7 @@ img {
 }
 
 .content2 {
-        margin-left: 71px;
+        margin-left: 99px;
         text-align: start;
         width: 382px;
         font-size: 18px;
@@ -792,6 +870,21 @@ img {
     margin-top: 150px;
 }
 
+.downloads {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.downloads button {
+    background-color: black;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
 
 .download h1 {
     color: #313131;
@@ -861,6 +954,11 @@ img {
     background-position-x: 933px;
     background-position-y: bottom;
     background-repeat: no-repeat;
+        margin-top: 212px;
+}
+.fot {
+    margin-top: 59px;
+    font-family: 'Inter' , sans-serif;
 }
 
 .cardAboveFooter h1 {
@@ -910,7 +1008,7 @@ img {
 
 
 .footer {
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 .footer-content {
@@ -924,6 +1022,7 @@ img {
 .footer-section {
     flex: 1;
     padding: 10px;
+    margin-left: 20px;
 }
 
 .logo {
@@ -939,11 +1038,13 @@ img {
 }
 
 .left{
-    margin-left: 90px;
+    margin-left: 86px;
 }
 
 .footer-section p {
     font-size: 18px;
+    letter-spacing: 0px;
+    line-height: auto;
     margin: 5px 0;
     color: #575757;
     margin-top: 10px;
@@ -1010,6 +1111,11 @@ img {
     color: white;
     background-color: #000F37;
     margin: 0;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #313131;
 }
 
 
